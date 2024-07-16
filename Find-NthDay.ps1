@@ -1,19 +1,3 @@
-<#
-.SYNOPSIS
-#
-
-.DESCRIPTION
-Long description
-
-.PARAMETER Day
-Parameter description
-.EXAMPLE
-An example
-
-.NOTES
-General notes
-#>
-
 Param (
   [Parameter(Position = 0)]
   [ValidateRange(1, 5)]
